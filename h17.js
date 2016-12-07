@@ -12,7 +12,7 @@ red =        "#E74C3C";
 magenta =    "#9B59B6";
 violet =     "#8E44AD";
 blue =       "#3498DB";
-cyan =       "#1ABC9C";
+cyan =       "#10CDE6";
 green =      "#2ECC71";
 
 t.prefs_.set('color-palette-overrides',
