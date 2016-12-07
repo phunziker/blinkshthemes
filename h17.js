@@ -1,4 +1,27 @@
-t.prefs_.set('color-palette-overrides',["#ffffff", "#a82320", "#32a548", "#e58d11", "#3167ac", "#781aa0", "#2c9370", "#b0b6ba", "#212c3c", "#d4312e", "#2d9440", "#e5be0c", "#3c7dd2", "#8230a7", "#35b387", "#e7eced"]);
-t.prefs_.set('foreground-color', "#ffffff");
+base03 =     "#2C3E50";
+base02 =     "#34495E";
+base01 =     "#27AE60";
+base00 =     "#F39C12";
+base0 =      "#3C7DD1";
+base1 =      "#2980B9";
+base2 =      "#ECF0F1";
+base3 =      "#BDC3C7";
+yellow =     "#F1C40F";
+orange =     "#C0392B";
+red =        "#E74C3C";
+magenta =    "#9B59B6";
+violet =     "#8E44AD";
+blue =       "#3498DB";
+cyan =       "#1ABC9C";
+green =      "#2ECC71";
+
+t.prefs_.set('color-palette-overrides',
+		 [ base02 , red     , green  , yellow,
+		   blue     , magenta , cyan   , base2,
+		   base03   , orange  , base01 , base00,
+		   base0    , violet  , base1  , base3 ]);
+
+t.prefs_.set('cursor-color', "#FFFFFF");
+t.prefs_.set('cursor-blink', false);
+t.prefs_.set('foreground-color', "#FFFFFF");
 t.prefs_.set('background-color', "#011f35");
-t.prefs_.set('cursor-color', "#ffffff");
